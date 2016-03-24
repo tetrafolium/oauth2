@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"log"
 
-	"golang.org/x/oauth2"
+	"github.com/tetrafolium/oauth2"
 )
 
 func ExampleConfig() {
