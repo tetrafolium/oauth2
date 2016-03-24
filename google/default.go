@@ -14,10 +14,10 @@ import (
 	"path/filepath"
 	"runtime"
 
+	"github.com/tetrafolium/gcloud-golang/compute/metadata"
 	"github.com/tetrafolium/oauth2"
 	"github.com/tetrafolium/oauth2/jwt"
 	"golang.org/x/net/context"
-	"google.golang.org/cloud/compute/metadata"
 )
 
 // DefaultClient returns an HTTP Client that uses the

@@ -21,9 +21,9 @@ import (
 	"strings"
 	"time"
 
+	"github.com/tetrafolium/gcloud-golang/compute/metadata"
 	"github.com/tetrafolium/oauth2"
 	"github.com/tetrafolium/oauth2/jwt"
-	"google.golang.org/cloud/compute/metadata"
 )
 
 // Endpoint is Google's OAuth 2.0 endpoint.
